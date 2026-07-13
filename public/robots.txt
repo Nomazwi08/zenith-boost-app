@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /auth
+Disallow: /dashboard
+Disallow: /planner
+Disallow: /research
+Disallow: /chat
+Disallow: /history
+Disallow: /settings
+Disallow: /api/
