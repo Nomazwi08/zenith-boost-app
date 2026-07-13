@@ -87,10 +87,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         property: "og:description",
         content:
-          "Plan, research, and collaborate with AI. A unified productivity workspace for busy professionals.",
+          "Aivora is your unified AI workplace assistant: plan tasks, research topics, and chat with a productivity copilot in one polished dashboard.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Aivora — AI Workplace Productivity Assistant" },
+      { name: "twitter:description", content: "Aivora is your unified AI workplace assistant: plan tasks, research topics, and chat with a productivity copilot in one polished dashboard." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/08d1262f-f651-4fca-9058-d70f25cbf0c3/id-preview-6b742f67--33cdf6d3-a347-41d2-9230-8f5ee525f098.lovable.app-1783944958719.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/08d1262f-f651-4fca-9058-d70f25cbf0c3/id-preview-6b742f67--33cdf6d3-a347-41d2-9230-8f5ee525f098.lovable.app-1783944958719.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
